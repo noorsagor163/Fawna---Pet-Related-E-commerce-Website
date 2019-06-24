@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!--====== Title ======-->
+  <title>Document</title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!--====== Fontawesome css ======-->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+
+  <!--====== Plugins css ======-->
+  <link rel="stylesheet" href="assets/css/slick.css" />
+
+  <!--====== Default css ======-->
+  <link rel="stylesheet" href="assets/css/default.css" />
+
+  <!--====== Style css ======-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--====== Responsive css ======-->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <!-- sidebar area start -->
+  <div class="sidebar">
+    <div class="mobile-menu-header">
+      <div class="logo">
+        <a href="#"><img src="assets/img/mobile-logo.svg" alt=""/></a>
+      </div>
+      <div class="cart-div">
+        <a href="#"
+          ><svg
+            width="20"
+            height="20"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="cart-icon"
+              d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+              fill="#1C3261"
+            ></path>
+          </svg>
+        </a>
+        <div class="close-icon"><i class="far fa-times"></i></div>
+      </div>
+    </div>
+    <nav class="sideBar-menu">
+      <ul>
+        <li><a href="#">CÃES</a></li>
+        <li><a href="#">GATOS</a></li>
+        <li><a href="#">ECOBOX</a></li>
+        <li><a href="#">ECOPACK</a></li>
+      </ul>
+    </nav>
+    <ul class="condition">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+    <form class="mobile-view-form">
+      <div class="mail-input">
+        <input type="email" placeholder="">
+        <button type="submit">Entrar</button>
+      </div>
+      <a href="#" class="round-btn mobile-view">REGISTAR</a>
+    </form>
+  </div>
+  <!-- sidebar area end -->
+
+  <div class="off-canvas-overlay"></div>
+
+  <!-- Header Area Start -->
+  <div class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6 d-flex align-items-center">
+          <div class="logo">
+            <a href="#"><img src="assets/img/logo.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-lg-9 col-6">
+          <nav class="main-menu d-none d-lg-block">
+            <ul>
+              <li><a href="#">CÃES</a></li>
+              <li><a href="#">GATOS</a></li>
+              <li><a href="#">ECOBUNDLE</a></li>
+              <li><a href="#">ECOBOX</a></li>
+              <li class="brr"><a href="#">ENTRAR</a></li>
+              <li><a href="#" class="round-btn">REGISTAR</a></li>
+              <li>
+                <a href="#"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="cart-icon"
+                      d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+                      fill="#1C3261" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile-bar"><i class="far fa-bars"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Area End -->
+
+  <!-- Cart Area Start -->
+  <section id="fawna-payment">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <ul class="cart-btns">
+            <li><a href="#" id="order-active">Order <i class="fas fa-check"></i></a></li>
+            <li><a href="#">Checkout <i class="fas fa-check"></i></a></li>
+            <li><a href="#">Confirmed <i class="fas fa-check"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="order-table d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <table class="table">
+              <thead class="thead">
+                <tr>
+                  <th scope="col">Item</th>
+                  <th scope="col">PREÇO</th>
+                  <th scope="col">QUANTIDADE</th>
+                  <th scope="col">FREQUÊNCIA</th>
+                  <th scope="col">PREÇO TOTAL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <img src="assets/img/order-item.png" alt="Order Item Image" class="img-fluid">
+                      </div>
+                      <div class="col-lg-9">
+                        <h6>Laçarote Zee.Dog Mahalo</h6>
+                        <p>15 Kg</p>
+                      </div>
+                    </div>
+                  </th>
+                  <td>£7.99</td>
+                  <td>
+                    <form>
+                      <p class="quantity">
+                        <span></span><input type="number" min="1" max="9" step="1" value="1">
+                      </p>
+                    </form>
+                  </td>
+                  <td>
+                    <form>
+                      <select>
+                        <option value="">Cada 4 semanas</option>
+                        <option value="">One</option>
+                        <option value="">Two</option>
+                      </select>
+                    </form>
+                  </td>
+                  <td>€7.99 <a href="#" class="price-cross"><i class="fa fa-times"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <img src="assets/img/order-item2.png" alt="Order Item Image" class="img-fluid">
+                      </div>
+                      <div class="col-lg-9">
+                        <h6>Laçarote Zee.Dog Mahalo</h6>
+                        <p>Onesize</p>
+                      </div>
+                    </div>
+                  </th>
+                  <td>£7.99</td>
+                  <td>
+                    <form>
+                      <p class="quantity">
+                        <span></span><input type="number" min="1" max="9" step="1" value="1">
+                      </p>
+                    </form>
+                  </td>
+                  <td>
+                    <form>
+                      <select>
+                        <option value="">Cada 4 semanas</option>
+                        <option value="">One</option>
+                        <option value="">Two</option>
+                      </select>
+                    </form>
+                  </td>
+                  <td>€7.99 <a href="#" class="price-cross"><i class="fa fa-times"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <img src="assets/img/order-item3.png" alt="Order Item Image" class="img-fluid">
+                      </div>
+                      <div class="col-lg-9">
+                        <h6>Laçarote Zee.Dog Mahalo</h6>
+                        <p>Onesize</p>
+                      </div>
+                    </div>
+                  </th>
+                  <td>£7.99</td>
+                  <td>
+                    <form>
+                      <p class="quantity">
+                        <span></span><input type="number" min="1" max="9" step="1" value="1">
+                      </p>
+                    </form>
+                  </td>
+                  <td>
+                    <form>
+                      <select>
+                        <option value="">Cada 4 semanas</option>
+                        <option value="">One</option>
+                        <option value="">Two</option>
+                      </select>
+                    </form>
+                  </td>
+                  <td>€7.99 <a href="#" class="price-cross"><i class="fa fa-times"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <span>Voucher</span>
+                    <div class="pro-code">
+                      SALE038 <i class="fa fa-check"></i>
+                    </div>
+                  </th>
+                  <td colspan="2">
+                    <span>Desconto</span>
+                    <p>-£8.79</p>
+                  </td>
+                  <td colspan="3">
+                    <span class="order-total">Total</span>
+                    <p>£5.60</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row" colspan="2">
+                    <a href="#" class="table-btns">VOLTAR À LOJA</a>
+                  </td>
+                  <td colspan="4" class="text-right">
+                    <a href="#" class="table-btns" id="order-active">Pagamento</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="order-table-mobile d-block d-lg-none">
+      <div class="order-mobile">
+        <div class="order-mobile-border">
+          <div class="container">
+            <div class="row">
+              <div class="col-3 pr-0">
+                <img src="assets/img/order-item.png" alt="Order Image" class="img-fluid w-100">
+              </div>
+              <div class="col-9">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <span>Onesize</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <h6>Frequency</h6>
+                <form>
+                  <select>
+                    <option value="">Cada 4 semanas</option>
+                    <option value="">One</option>
+                    <option value="">Two</option>
+                  </select>
+                </form>
+              </div>
+              <div class="col-5">
+                <h6 class="text-right">Quantity</h6>
+                <form>
+                  <p class="quantity">
+                    <span></span><input type="number" min="1" max="9" step="1" value="1">
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <h6>Total Price</h6>
+                <p>£7.99</p>
+              </div>
+              <div class="col-6 text-right">
+                <h6>Total Price</h6>
+                <p>£7.99 <i class="fa fa-times"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-mobile-border">
+          <div class="container">
+            <div class="row">
+              <div class="col-3 pr-0">
+                <img src="assets/img/order-item2.png" alt="Order Image" class="img-fluid w-100">
+              </div>
+              <div class="col-9">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <span>Onesize</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <h6>Frequency</h6>
+                <form>
+                  <select>
+                    <option value="">Cada 4 semanas</option>
+                    <option value="">One</option>
+                    <option value="">Two</option>
+                  </select>
+                </form>
+              </div>
+              <div class="col-5">
+                <h6 class="text-right">Quantity</h6>
+                <form>
+                  <p class="quantity">
+                    <span></span><input type="number" min="1" max="9" step="1" value="1">
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <h6>Total Price</h6>
+                <p>£7.99</p>
+              </div>
+              <div class="col-6 text-right">
+                <h6>Total Price</h6>
+                <p>£7.99 <i class="fa fa-times"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-mobile-border">
+          <div class="container">
+            <div class="row">
+              <div class="col-3 pr-0">
+                <img src="assets/img/order-item3.png" alt="Order Image" class="img-fluid w-100">
+              </div>
+              <div class="col-9">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <span>Onesize</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <h6>Frequency</h6>
+                <form>
+                  <select>
+                    <option value="">Cada 4 semanas</option>
+                    <option value="">One</option>
+                    <option value="">Two</option>
+                  </select>
+                </form>
+              </div>
+              <div class="col-5">
+                <h6 class="text-right">Quantity</h6>
+                <form>
+                  <p class="quantity">
+                    <span></span><input type="number" min="1" max="9" step="1" value="1">
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <h6>Total Price</h6>
+                <p>£7.99</p>
+              </div>
+              <div class="col-6 text-right">
+                <h6>Total Price</h6>
+                <p>£7.99 <i class="fa fa-times"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-mobile-border voucher">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h6>Voucher</h6>
+                <div class="pro-code">
+                  SALE038 <i class="fa fa-check"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 text-center">
+                <h6>Discount</h6>
+                <p>- £8.79</p>
+              </div>
+              <div class="col-6 text-center">
+                <h6>Total</h6>
+                <p>£5.60</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row order-mobile-btn">
+            <div class="col-6 text-center">
+              <a href="#" class="mobile-btns">continue</a>
+            </div>
+            <div class="col-6 text-center">
+              <a href="#" class="mobile-btns" id="order-active">checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Cart Area End -->
+
+  <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+  <!--====== jquery js ======-->
+  <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!--====== Ajax Contact js ======-->
+  <script src="assets/js/ajax-contact.js"></script>
+
+  <!--====== Plugins js ======-->
+  <script src="assets/js/slick.min.js"></script>
+
+  <!--====== Input Spinners js ======-->
+  <script src="assets/js/InputSpinner.js"></script>
+
+  <!--====== Main js ======-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

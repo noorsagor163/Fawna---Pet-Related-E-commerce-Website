@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!--====== Title ======-->
+  <title>Document</title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!--====== Fontawesome css ======-->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+
+  <!--====== Plugins css ======-->
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/jquery.nice-number.css" />
+
+
+  <!--====== Default css ======-->
+  <link rel="stylesheet" href="assets/css/default.css" />
+
+  <!--====== Style css ======-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--====== Responsive css ======-->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <!-- sidebar area start -->
+  <div class="sidebar">
+    <div class="mobile-menu-header">
+      <div class="logo">
+        <a href="#"><img src="assets/img/mobile-logo.svg" alt=""/></a>
+      </div>
+      <div class="cart-div">
+        <a href="#"
+          ><svg
+            width="20"
+            height="20"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="cart-icon"
+              d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+              fill="#1C3261"
+            ></path>
+          </svg>
+        </a>
+        <div class="close-icon"><i class="far fa-times"></i></div>
+      </div>
+    </div>
+    <nav class="sideBar-menu">
+      <ul>
+        <li><a href="#">CÃES</a></li>
+        <li><a href="#">GATOS</a></li>
+        <li><a href="#">ECOBOX</a></li>
+        <li><a href="#">ECOPACK</a></li>
+      </ul>
+    </nav>
+    <ul class="condition">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+    <form class="mobile-view-form">
+      <div class="mail-input">
+        <input type="email" placeholder="">
+        <button type="submit">Entrar</button>
+      </div>
+      <a href="#" class="round-btn mobile-view">REGISTAR</a>
+    </form>
+  </div>
+  <!-- sidebar area end -->
+
+  <div class="off-canvas-overlay"></div>
+
+  <!-- Header Area Start -->
+  <div id="store-header" class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6 d-flex align-items-center">
+          <div class="logo">
+            <a href="#"><img src="assets/img/logo.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-lg-9 col-6">
+          <nav class="main-menu d-none d-lg-block">
+            <ul>
+              <li><a href="#">CÃES</a></li>
+              <li><a href="#">GATOS</a></li>
+              <li><a href="#">ECOLIFE</a></li>
+              <li><a href="#">ECOPLAY</a></li>
+              <li class="brr"><a href="#">SIGN IN</a></li>
+              <li><a href="#" class="round-btn">REGISTAR</a></li>
+              <li>
+                <a href="#"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="cart-icon"
+                      d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+                      fill="#1C3261" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile-bar"><i class="far fa-bars"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Area End -->
+
+  <!-- Dashboard Tab Area Start -->
+  <div class="dashboard-tab-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="dash-tab-main-wrapper">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link round-btn active" id="nav-perfil-tab" data-toggle="tab" href="#nav-perfil"
+                  role="tab" aria-controls="nav-perfil" aria-selected="true">PERFIL</a>
+                <a class="nav-item nav-link round-btn" id="nav-familia-tab" data-toggle="tab" href="#nav-familia"
+                  role="tab" aria-controls="nav-familia" aria-selected="false">FAMÍLIA</a>
+                <a class="nav-item nav-link round-btn" id="nav-encomendas-tab" data-toggle="tab" href="#nav-encomendas"
+                  role="tab" aria-controls="nav-encomendas" aria-selected="false">ENCOMENDAS</a>
+                <a class="nav-item nav-link round-btn" id="nav-pontos-tab" data-toggle="tab" href="#nav-pontos"
+                  role="tab" aria-controls="nav-pontos" aria-selected="false">PONTOS</a>
+                <a class="nav-item nav-link round-btn" id="nav-prefer-tab" data-toggle="tab" href="#nav-prefer"
+                  role="tab" aria-controls="nav-prefer" aria-selected="false">PREFERÊNCIAS</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Dashboard Tab Area End -->
+
+  <!-- Dash Tab Content Area Start -->
+  <div class="dash-tab-content-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="dash-content-main-wrapper">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-perfil" role="tabpanel" aria-labelledby="nav-perfil-tab">
+                <div class="dashh-tb-content-wrap">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="profile-left-wrap">
+                        <div class="profile-img">
+                          <img src="assets/img/profile-img.png" alt="">
+                          <span class="pf-delete"><img src="assets/img/delete.svg" alt=""></span>
+                        </div>
+                        <h5>Natalie Sarah</h5>
+                        <div class="profile-status">
+                          <span><i class="fas fa-map-marker-alt"></i>Lisbon</span>
+                          <span><i class="fas fa-envelope"></i>Verified</span>
+                        </div>
+                        <div class="profile-achive-wrap">
+                          <div class="achive-item pdd-right">
+                            <div class="achive-item-inner">
+                              <div class="achive-img">
+                                <img src="assets/img/p-1.svg" alt="">
+                              </div>
+                              <span>2 Pets</span>
+                            </div>
+                          </div>
+                          <div class="achive-item pdd-left">
+                            <div class="achive-item-inner">
+                              <div class="achive-img">
+                                <img src="assets/img/p-2.svg" alt="">
+                              </div>
+                              <span>200 Points</span>
+                            </div>
+                          </div>
+                          <div class="achive-item pdd-right">
+                            <div class="achive-item-inner">
+                              <div class="achive-img">
+                                <img src="assets/img/p-3.svg" alt="">
+                              </div>
+                              <span>2 Subscriptions</span>
+                            </div>
+                          </div>
+                          <div class="achive-item pdd-left">
+                            <div class="achive-item-inner">
+                              <div class="achive-img">
+                                <img src="assets/img/p-4.svg" alt="">
+                              </div>
+                              <span>3 Reviews</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="profile-form-main-wrapper">
+                        <div class="profile-form-main-inner bdr-btm">
+                          <div class="profile-fm-wrapper">
+                            <h4>account details</h4>
+                            <div class="row">
+                              <div class="col-xl-12 mb-30">
+                                <div class="input-1">
+                                  <label for="">Username</label>
+                                  <input class="input-design-2" type="text" placeholder="Name">
+                                </div>
+                              </div>
+                              <div class="col-xl-12 mb-30">
+                                <div class="input-1">
+                                  <label for="">Email</label>
+                                  <input class="input-design-2" type="email" placeholder="Email">
+                                </div>
+                              </div>
+                              <div class="col-lg-6 mb-30">
+                                <div class="input-1">
+                                  <label for="">Password</label>
+                                  <input class="input-design-2" type="password" placeholder="Password">
+                                </div>
+                              </div>
+                              <div class="col-lg-6 mb-30">
+                                <div class="input-1">
+                                  <label for="">Company</label>
+                                  <input class="input-design-2" type="text" placeholder="Company">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="profile-fm-wrapper"></div>
+                          <div class="profile-fm-wrapper"></div>
+                        </div>
+                        <div class="profile-form-main-inner bdr-btm mb-30">
+                          <div class="profile-fm-wrapper">
+                            <h4>personal details</h4>
+                            <div class="row">
+                              <div class="col-lg-6 mb-30">
+                                <div class="input-1">
+                                  <label for="">First Name</label>
+                                  <input class="input-design-2" type="text" placeholder="First Name">
+                                </div>
+                              </div>
+                              <div class="col-lg-6 mb-30">
+                                <div class="input-1">
+                                  <label for="">Last Name</label>
+                                  <input class="input-design-2" type="text" placeholder="Last Name">
+                                </div>
+                              </div>
+                              <div class="col-xl-12 mb-30">
+                                <div class="input-1 text-area">
+                                  <label for="">Address</label>
+                                  <div class="text-area-container">
+                                    <textarea class="textarea-design" name="" id="" cols="30" rows="10"
+                                      placeholder="1600 Amphitheatre Parkway, Mountain View, CA, 94043."></textarea>
+                                    <div class="icon-trans">
+                                      <span><img src="assets/img/home.svg" alt=""></span>
+                                      <div class="eidt">
+                                        <span><img src="assets/img/edit.svg" alt=""></span>
+                                        <span>Edit</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="add-new-adress">
+                                  <div class="add-new-inner">
+                                    <span class="add-u address"><i class="far fa-plus"></i></span>
+                                    <p>Add a new address</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="profile-form-main-inner">
+                          <div class="profile-fm-wrapper">
+                            <h4>contact details</h4>
+                            <div class="row">
+                              <div class="col-xl-12 mb-30">
+                                <div class="input-1">
+                                  <label for="">Mobile</label>
+                                  <input class="input-design-2" type="text" placeholder="Mobile">
+                                </div>
+                              </div>
+                              <div class="col-xl-12 mb-30">
+                                <div class="input-1">
+                                  <label for="">Email</label>
+                                  <input class="input-design-2" type="email" placeholder="Email">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="save-and-edit-btn">
+                          <a href="#" class="round-btn sv-edit">Save</a>
+                          <a href="#" class="round-btn sv-edit">EDIT</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-familia" role="tabpanel" aria-labelledby="nav-familia-tab">
+                <div class="dashh-tb-content-wrap">
+                  <div class="row">
+                    <div class="col-lg-4 mb-30">
+                      <div class="dash-pet-wrapper">
+                        <div class="pet-part-1">
+                          <div class="dash-dg-img">
+                            <img src="assets/img/dg-1.png" alt="">
+                          </div>
+                          <h5>Scooby</h5>
+                        </div>
+                        <div class="pet-part-2 bdr-btm">
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/p-1.svg" alt="">
+                              </div>
+                              <span>3 Years</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-2.png" alt="">
+                              </div>
+                              <span>Male</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-3.png" alt="">
+                              </div>
+                              <span>Medium</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-4.png" alt="">
+                              </div>
+                              <span>Active</span>
+                            </div>
+                          </div>
+                          <div class="pet-item extra">
+                            <div class="achive-item-inner dashboard-pg extra">
+                              <div class="achive-img dashboard-pg extra">
+                                <img src="assets/img/pp-5.png" alt="">
+                              </div>
+                              <span>Beef<br>
+                                Alergic</span>
+                            </div>
+                          </div>
+                          <div class="pet-item extra">
+                            <div class="achive-item-inner dashboard-pg extra">
+                              <div class="achive-img dashboard-pg extra">
+                                <img src="assets/img/pp-6.png" alt="">
+                              </div>
+                              <span>Organic <br>
+                                Diet</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pet-part-3">
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-1.svg" alt=""> Pack</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn active" href="#"><img src="assets/img/pet-i-2.svg" alt="">
+                              Store</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-3.svg" alt="">
+                              Edit</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-4.svg" alt=""> Delete</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mb-30">
+                      <div class="dash-pet-wrapper">
+                        <div class="pet-part-1">
+                          <div class="dash-dg-img">
+                            <img src="assets/img/dg-1.png" alt="">
+                          </div>
+                          <h5>Scooby</h5>
+                        </div>
+                        <div class="pet-part-2 bdr-btm">
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/p-1.svg" alt="">
+                              </div>
+                              <span>3 Years</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-2.png" alt="">
+                              </div>
+                              <span>Male</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-3.png" alt="">
+                              </div>
+                              <span>Medium</span>
+                            </div>
+                          </div>
+                          <div class="pet-item">
+                            <div class="achive-item-inner dashboard-pg">
+                              <div class="achive-img dashboard-pg">
+                                <img src="assets/img/pp-4.png" alt="">
+                              </div>
+                              <span>Active</span>
+                            </div>
+                          </div>
+                          <div class="pet-item extra">
+                            <div class="achive-item-inner dashboard-pg extra">
+                              <div class="achive-img dashboard-pg extra">
+                                <img src="assets/img/pp-5.png" alt="">
+                              </div>
+                              <span>Beef<br>
+                                Alergic</span>
+                            </div>
+                          </div>
+                          <div class="pet-item extra">
+                            <div class="achive-item-inner dashboard-pg extra">
+                              <div class="achive-img dashboard-pg extra">
+                                <img src="assets/img/pp-6.png" alt="">
+                              </div>
+                              <span>Organic <br>
+                                Diet</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pet-part-3">
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-1.svg" alt=""> Pack</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn active" href="#"><img src="assets/img/pet-i-2.svg" alt="">
+                              Store</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-3.svg" alt="">
+                              Edit</a>
+                          </div>
+                          <div class="pet-btn-item">
+                            <a class="round-btn pet-btn" href="#"><img src="assets/img/pet-i-4.svg" alt=""> Delete</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mb-30">
+                      <div class="dash-pet-wrapper pet">
+                        <div class="add-new-adress pet">
+                          <div class="add-new-inner pet">
+                            <span class="add-u address"><i class="far fa-plus"></i></span>
+                            <p>Add a new pet</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-encomendas" role="tabpanel" aria-labelledby="nav-encomendas-tab">
+                <div id="dashh-tb-content-wrap" class="dashh-tb-content-wrap">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="o-single-item o-heading">
+                        <div class="fst-o-item">
+                          <div class="item-checkbox">
+                            <label class="check-box"><span></span>
+                              <input type="checkbox" checked="checked" name="check-4">
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="hash-tag o-hd"><span>#</span></div>
+                          <div class="item-date o-hd"><span>DATE </span></div>
+                        </div>
+                        <div class="o-item-name o-hd">
+                          <span class="weight">ItemS</span>
+                        </div>
+                        <div class="o-price o-hd">
+                          <span>TOTAL</span>
+                        </div>
+                        <div class="o-frequency o-hd">
+                          <span>Frequency</span>
+                        </div>
+                        <div class="o-status o-hd">
+                          <span class="o-st c-1">STATUS</span>
+                        </div>
+                        <div class="o-upcoming o-hd">
+                          <span>UPCOMING</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-12 col-12">
+                      <div class="order-main-wrap">
+                        <div class="o-single-item bdr-btm">
+                          <div class="fst-o-item">
+                            <div class="item-checkbox">
+                              <label class="check-box"><span></span>
+                                <input type="checkbox" checked="checked" name="check-4">
+                                <span class="checkmark"></span>
+                              </label>
+                            </div>
+                            <div class="hash-tag"><span>131455</span></div>
+                            <div class="item-date"><span>29/08/19 </span></div>
+                          </div>
+                          <div class="o-item-name">
+                            <h6>Laçarote Zee.Dog Mahalo</h6>
+                            <span class="weight">1 x 20 KG</span>
+                          </div>
+                          <div class="o-price">
+                            <span>£7.99</span>
+                          </div>
+                          <div class="o-frequency">
+                            <span>Every 4 weeks</span>
+                          </div>
+                          <div class="o-status">
+                            <span class="o-st c-1">SUBSCRIPTION</span>
+                          </div>
+                          <div class="o-upcoming">
+                            <span>29/08/19 </span>
+                          </div>
+                        </div>
+                        <div class="o-single-item bdr-btm">
+                          <div class="fst-o-item">
+                            <div class="item-checkbox">
+                              <label class="check-box"><span></span>
+                                <input type="checkbox" checked="checked" name="check-4">
+                                <span class="checkmark"></span>
+                              </label>
+                            </div>
+                            <div class="hash-tag"><span>131455</span></div>
+                            <div class="item-date"><span>29/08/19 </span></div>
+                          </div>
+                          <div class="o-item-name">
+                            <h6>Laçarote Zee.Dog Mahalo</h6>
+                            <span class="weight">1 x 20 KG</span>
+                          </div>
+                          <div class="o-price">
+                            <span>£7.99</span>
+                          </div>
+                          <div class="o-frequency">
+                            <span>Every 4 weeks</span>
+                          </div>
+                          <div class="o-status">
+                            <span class="o-st c-1">SUBSCRIPTION</span>
+                          </div>
+                          <div class="o-upcoming">
+                            <span>29/08/19 </span>
+                          </div>
+                        </div>
+                        <div class="o-single-item bdr-btm">
+                          <div class="fst-o-item">
+                            <div class="item-checkbox">
+                              <label class="check-box"><span></span>
+                                <input type="checkbox" checked="checked" name="check-4">
+                                <span class="checkmark"></span>
+                              </label>
+                            </div>
+                            <div class="hash-tag"><span>131455</span></div>
+                            <div class="item-date"><span>29/08/19 </span></div>
+                          </div>
+                          <div class="o-item-name">
+                            <h6>Laçarote Zee.Dog Mahalo</h6>
+                            <span class="weight">1 x 20 KG</span>
+                          </div>
+                          <div class="o-price">
+                            <span>£7.99</span>
+                          </div>
+                          <div class="o-frequency">
+                            <span>Every 4 weeks</span>
+                          </div>
+                          <div class="o-status">
+                            <span class="o-st c-1">SUBSCRIPTION</span>
+                          </div>
+                          <div class="o-upcoming">
+                            <span>29/08/19 </span>
+                          </div>
+                        </div>
+                        <div class="o-single-item bdr-btm">
+                          <div class="fst-o-item">
+                            <div class="item-checkbox">
+                              <label class="check-box"><span></span>
+                                <input type="checkbox" checked="checked" name="check-4">
+                                <span class="checkmark"></span>
+                              </label>
+                            </div>
+                            <div class="hash-tag"><span>131455</span></div>
+                            <div class="item-date"><span>29/08/19 </span></div>
+                          </div>
+                          <div class="o-item-name">
+                            <h6>Laçarote Zee.Dog Mahalo</h6>
+                            <span class="weight">1 x 20 KG</span>
+                          </div>
+                          <div class="o-price">
+                            <span>£7.99</span>
+                          </div>
+                          <div class="o-frequency">
+                            <span>Every 4 weeks</span>
+                          </div>
+                          <div class="o-status">
+                            <span class="o-st c-1">SUBSCRIPTION</span>
+                          </div>
+                          <div class="o-upcoming">
+                            <span>29/08/19 </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="pet-part-3 tab-three">
+                        <div class="pet-btn-item tab-three">
+                          <a class="round-btn pet-btn tab-three" href="#">DETAILS</a>
+                        </div>
+                        <div class="pet-btn-item tab-three">
+                          <a class="round-btn pet-btn tab-three active" href="#">REPEAT ORDER</a>
+                        </div>
+                        <div class="pet-btn-item tab-three">
+                          <a class="round-btn pet-btn tab-three" href="#">WRITE REVIEW</a>
+                        </div>
+                        <div class="pet-btn-item tab-three">
+                          <a class="round-btn pet-btn tab-three" href="#">RECEIPT</a>
+                        </div>
+                        <div class="pet-btn-item tab-three">
+                          <a class="round-btn pet-btn tab-three" href="#">EDIT</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-pontos" role="tabpanel" aria-labelledby="nav-pontos-tab">
+                <div class="dashh-tb-content-wrap">
+                  <div class="row">
+                    <div class="col-lg-4 mb-30">
+                      <div class="price-c-wrapper tb-4">
+                        <div class="price-hd-tb-4">
+                          <h4>TOTAL POINTS</h4>
+                          <p>Use your points to get discounts</p>
+                        </div>
+                        <div class="tb-4-content">
+                          <div class="single-total-box">
+                            <div class="achive-img tb-4">
+                              <img src="assets/img/p-2.svg" alt="">
+                            </div>
+                            <div class="tt-content">
+                              <span class="tt-hd">300</span>
+                              <span>Total Points</span>
+                            </div>
+                          </div>
+                          <div class="single-total-box">
+                            <div class="achive-img tb-4">
+                              <img src="assets/img/p-2.svg" alt="">
+                            </div>
+                            <div class="tt-content">
+                              <span class="tt-hd">300</span>
+                              <span>Total Points</span>
+                            </div>
+                          </div>
+                          <div class="tt-input-section">
+                            <div class="input-1 tb-4">
+                              <label for="">Enter Points to Redeem</label>
+                              <input class="input-design-2 tb-4" type="text" placeholder="">
+                              <div class="tt-b-wrapper text-center">
+                                <button type="submit" class="round-btn tt-point-btn">REDEEM</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mb-30">
+                      <div class="price-c-wrapper tb-4">
+                        <div class="price-hd-tb-4">
+                          <h4>TOTAL POINTS</h4>
+                          <p>Use your points to get discounts</p>
+                        </div>
+                        <div class="tb-4-content">
+                          <div class="single-total-box snd">
+                            <div class="achive-img tb-4">
+                              <img src="assets/img/shopping.svg" alt="">
+                            </div>
+                            <div class="tt-content snd">
+                              <div class="tt-content-inner">
+                                <span class="vau-number">23423-234234-2342</span>
+                                <div class="www-wp">
+                                  <span class="tt-hd">10%</span>
+                                  <span>Off Store</span>
+                                </div>
+                                <span class="valid-dt">Valid until 18 December 2019</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-total-box snd">
+                            <div class="achive-img tb-4">
+                              <img src="assets/img/shopping.svg" alt="">
+                            </div>
+                            <div class="tt-content snd">
+                              <div class="tt-content-inner">
+                                <span class="vau-number">23423-234234-2342</span>
+                                <div class="www-wp">
+                                  <span class="tt-hd">10%</span>
+                                  <span>Off Store</span>
+                                </div>
+                                <span class="valid-dt">Valid until 18 December 2019</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-total-box snd">
+                            <div class="achive-img tb-4">
+                              <img src="assets/img/shopping.svg" alt="">
+                            </div>
+                            <div class="tt-content snd">
+                              <div class="tt-content-inner">
+                                <span class="vau-number">23423-234234-2342</span>
+                                <div class="www-wp">
+                                  <span class="tt-hd">10%</span>
+                                  <span>Off Store</span>
+                                </div>
+                                <span class="valid-dt">Valid until 18 December 2019</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mb-30">
+                      <div class="price-c-wrapper tb-4">
+                        <div class="price-hd-tb-4">
+                          <h4>EARN POINTS</h4>
+                          <p>Invite your friends and family</p>
+                        </div>
+                        <div class="tb-4-content">
+                          <div class="single-total-box snd third">
+                            <div class="tb-social">
+                              <p>Share via Social Media</p>
+                              <ul class="social third">
+                                <li>
+                                  <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="single-total-box snd unique">
+                            <div class="refer-wrp">
+                              <div class="achive-img tb-4 unique">
+                                <img src="assets/img/shopping.svg" alt="">
+                              </div>
+                              <span>Your Referral Code</span>
+                              <p>Joseph123</p>
+                            </div>
+                            <div class="input-1 tb-4 third unique">
+                              <label for="">Invite your friends & you both get €40 </label>
+                              <input class="input-design-2 tb-4" type="text" placeholder="">
+                              <div class="tt-b-wrapper text-center">
+                                <button type="submit" class="round-btn tt-point-btn">REDEEM</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-prefer" role="tabpanel" aria-labelledby="nav-prefer-tab">
+                <div class="dashh-tb-content-wrap">
+                  <div class="row">
+                    <div class="col-lg-6 mb-30">
+                      <div class="with-toggle-wrp">
+                        <div class="hd-sec">
+                          <h5>NEWSLETTERS</h5>
+                          <div class="toggle-btn">
+                            <div class="toggle-outer active">
+                              <div class="toggle-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>Sign-up to our newsletters to receive tips, news and discounts.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mb-30">
+                      <div class="with-toggle-wrp">
+                        <div class="hd-sec">
+                          <h5>CURRENCY</h5>
+                          <div class="toggle-btn">
+                            <div class="toggle-outer active">
+                              <div class="toggle-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>Select your prefered currency</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mb-30">
+                      <div class="with-toggle-wrp">
+                        <div class="hd-sec">
+                          <h5>SMS NOTIFICATIONS</h5>
+                          <div class="toggle-btn">
+                            <div class="toggle-outer active">
+                              <div class="toggle-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>Receive SMS notifications for deliveries and promotions</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mb-30">
+                      <div class="with-toggle-wrp">
+                        <div class="hd-sec">
+                          <h5>LOG OUT</h5>
+                          <div class="toggle-btn">
+                            <div class="toggle-outer active">
+                              <div class="toggle-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>Log-out your fawna account.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Dash Tab Content Area End -->
+
+  <!-- Footer Area Start -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row agian">
+          <div class="col-lg-3 col-md-3">
+            <div class="ft-logo">
+              <img src="assets/img/ft-logo.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7">
+            <div class="ft-links-main-wrap">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Explorar</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">Missão</a></li>
+                      <li><a href="#">Contacts</a></li>
+                      <li><a href="#">Partnerships</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Serviços</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">Eco Box</a></li>
+                      <li><a href="#">Eco Pack</a></li>
+                      <li><a href="#">Eco Store</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Ajuda</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Privacy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="footer-widget">
+              <h5>Social</h5>
+              <ul class="social">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row res-purpose">
+          <div class="col-xl-12">
+            <div class="res-p-ft-wrap">
+              <div class="ft-logo">
+                <img src="assets/img/ft-logo.svg" alt="" />
+              </div>
+              <ul class="social res">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+              <ul class="ft-new-menu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="copyright-wrap">
+              <p class="copy">
+                Copyright © 2019 FAWNA CO. All Rights Reserved.
+              </p>
+              <p class="made">Made in Portugal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Area End -->
+
+  <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+  <!--====== jquery js ======-->
+  <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!--====== Ajax Contact js ======-->
+  <script src="assets/js/ajax-contact.js"></script>
+
+  <!--====== Plugins js ======-->
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/jquery.nice-number.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+
+  <!--====== Main js ======-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

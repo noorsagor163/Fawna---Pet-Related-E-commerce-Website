@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--====== Title ======-->
+    <title>Document</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+
+    <!--====== Plugins css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css" />
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- sidebar area start -->
+    <div class="sidebar">
+      <div class="mobile-menu-header">
+        <div class="logo">
+          <a href="#"><img src="assets/img/mobile-logo.svg" alt=""/></a>
+        </div>
+        <div class="cart-div">
+          <a href="#"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="cart-icon"
+                d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+                fill="#1C3261"
+              ></path>
+              <path
+                class="cart-icon"
+                d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+                fill="#1C3261"
+              ></path>
+              <path
+                class="cart-icon"
+                d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+                fill="#1C3261"
+              ></path>
+            </svg>
+          </a>
+          <div class="close-icon"><i class="far fa-times"></i></div>
+        </div>
+      </div>
+      <nav class="sideBar-menu">
+        <ul>
+          <li><a href="#">CÃES</a></li>
+          <li><a href="#">GATOS</a></li>
+          <li><a href="#">ECOBOX</a></li>
+          <li><a href="#">ECOPACK</a></li>
+        </ul>
+      </nav>
+      <ul class="condition">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+      <form class="mobile-view-form">
+        <div class="mail-input">
+          <input type="email" placeholder="">
+          <button type="submit">Entrar</button>
+        </div>
+        <a href="#" class="round-btn mobile-view">REGISTAR</a>
+      </form>
+    </div>
+    <!-- sidebar area end -->
+
+    <div class="off-canvas-overlay"></div>
+
+    <!-- Header Area Start -->
+    <div class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6 d-flex align-items-center">
+            <div class="logo">
+              <a href="#"><img src="assets/img/logo.svg" alt=""/></a>
+            </div>
+          </div>
+          <div class="col-lg-9 col-6">
+            <nav class="main-menu d-none d-lg-block">
+              <ul>
+                <li><a href="#">CÃES</a></li>
+                <li><a href="#">GATOS</a></li>
+                <li><a href="#">ECOBUNDLE</a></li>
+                <li><a href="#">ECOBOX</a></li>
+                <li class="brr"><a href="#">ENTRAR</a></li>
+                <li><a href="#" class="round-btn">REGISTAR</a></li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="cart-icon"
+                        d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+                        fill="#1C3261"
+                      />
+                      <path
+                        class="cart-icon"
+                        d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+                        fill="#1C3261"
+                      />
+                      <path
+                        class="cart-icon"
+                        d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+                        fill="#1C3261"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="mobile-bar"><i class="far fa-bars"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Area End -->
+
+    <!-- Banner Area Start -->
+    <div class="banner-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="banner-content-wrap d-flex align-items-center">
+              <div class="banner-content-inner">
+                <h3>
+                  Packs de produtos Orgânicos e Éticos para o seu companheiro
+                </h3>
+                <a class="round-btn d-none d-lg-inline-block" href="#">COMEÇAR AGORA</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="banner-img d-flex align-items-center justify-content-center"
+            >
+              <img src="assets/img/banner-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Area End -->
+
+    <!-- Service Area Start -->
+    <div class="service-area">
+      <div class="service-trans">
+        <img src="assets/img/service-trans.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="section-title service-sec">
+              <h2>
+                Reduza a patada ecológica do seu companheiro <br />
+                com produtos mais saudáveis
+              </h2>
+              <p>
+                Personalize os seus pacots com produtos biológicos, vegetarianos
+                ou certificados a preços imbativeis. Faça o seu patudo um herói
+                para o planeta!
+              </p>
+              <div class="common-btn">
+                <a href="#" class="round-btn">COMEÇAR AGORA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row service-section">
+          <div class="col-lg-3 col-6 mb-30">
+            <div class="service-wrapper">
+              <div class="service-img">
+                <img src="assets/img/s-1.png" alt="" />
+              </div>
+              <h4>Alimentação Écológica</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-30">
+            <div class="service-wrapper">
+              <div class="service-img">
+                <img src="assets/img/s-2.png" alt="" />
+              </div>
+              <h4>Pacotes Personalisados</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-30">
+            <div class="service-wrapper">
+              <div class="service-img">
+                <img src="assets/img/s-3.png" alt="" />
+              </div>
+              <h4>Aconselhamento Profissional</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-30">
+            <div class="service-wrapper">
+              <div class="service-img">
+                <img src="assets/img/s-4.png" alt="" />
+              </div>
+              <h4>Descontos Imbativéis</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service Area End -->
+
+    <!-- Function Area Start -->
+    <div class="function-area">
+      <div class="container-fluid">
+        <div class="function-inner-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="section-title service-sec">
+                  <h2>Como Funciona</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12 mb-30">
+                <div class="function-wrapper">
+                  <div class="function-img">
+                    <img src="assets/img/f-1.png" alt="" />
+                  </div>
+                  <div class="function-content">
+                    <h4>Registe o seu patudo</h4>
+                    <p>
+                      Responda a algumas perguntas para receber sugestões
+                      personalisadas
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mb-30">
+                <div class="function-wrapper">
+                  <div class="function-img">
+                    <img src="assets/img/f-2.png" alt="" />
+                  </div>
+                  <div class="function-content">
+                    <h4>Escolha os seus produtos</h4>
+                    <p>
+                      Escolha dentro a nossa seleção de produtos biológicos,
+                      certificatos ou vegetarianos
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mb-30">
+                <div class="function-wrapper">
+                  <div class="function-img">
+                    <img src="assets/img/f-3.png" alt="" />
+                  </div>
+                  <div class="function-content">
+                    <h4>Nós Entregamos</h4>
+                    <p>
+                      Escolha a subscrição para entregas automáticas, transporte
+                      grátis e descontos
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mb-30">
+                <div class="function-wrapper">
+                  <div class="function-img">
+                    <img src="assets/img/f-4.png" alt="" />
+                  </div>
+                  <div class="function-content">
+                    <h4>Sirva a refeição</h4>
+                    <p>
+                      Aproveite os beneficíos de um companheiro mais saúdavel &
+                      amigo do planeta
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Function Area End -->
+
+    <!-- Price Area Start -->
+    <div class="price-area">
+      <div class="price-trans">
+        <img src="assets/img/price-trans.png" alt="" />
+      </div>
+      <div class="price-trans-two">
+        <img src="assets/img/price-trans-2.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="section-title price-sec">
+              <h2>
+                1 Planeta. 3 Opções únicas. 100’s de Produtos Sustentáveis.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row price-active">
+          <div class="col-lg-4">
+            <div class="price-c-wrapper">
+              <div class="price-hd active">
+                <h4>EcoBox</h4>
+                <p>Uma box com muitas surpresas</p>
+              </div>
+              <div class="price-content">
+                <ul class="price-list">
+                  <li>Personalised box with 3 or 4 eco products</li>
+                  <li>Plant-based & natural Snacks</li>
+                  <li>Plastic-free & handmade Toys</li>
+                  <li>Natural & certified Health items</li>
+                  <li>Organic & Natural Hygiene items</li>
+                  <li>Free-Shipping</li>
+                  <li>10% Store discount</li>
+                </ul>
+              </div>
+              <div class="card-ft-wrap">
+                <div class="m-price">
+                  <p>Cancel anytime</p>
+                  <span class="amount">€ 19.99<span>/box</span></span>
+                </div>
+                <div class="common-btn in-price">
+                  <a href="#" class="round-btn price-btn active"
+                    >COMEÇAR AGORA</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="price-c-wrapper">
+              <div class="price-hd">
+                <h4>EcoBox</h4>
+                <p>Uma box com muitas surpresas</p>
+              </div>
+              <div class="price-content">
+                <ul class="price-list">
+                  <li>Personalised box with 3 or 4 eco products</li>
+                  <li>Plant-based & natural Snacks</li>
+                  <li>Plastic-free & handmade Toys</li>
+                  <li>Natural & certified Health items</li>
+                  <li>Organic & Natural Hygiene items</li>
+                  <li>Free-Shipping</li>
+                  <li>10% Store discount</li>
+                </ul>
+              </div>
+              <div class="card-ft-wrap">
+                <div class="m-price">
+                  <p>Cancel anytime</p>
+                  <span class="amount">€ 19.99<span>/box</span></span>
+                </div>
+                <div class="common-btn in-price">
+                  <a href="#" class="round-btn price-btn">COMEÇAR AGORA</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="price-c-wrapper">
+              <div class="price-hd">
+                <h4>EcoBox</h4>
+                <p>Uma box com muitas surpresas</p>
+              </div>
+              <div class="price-content">
+                <ul class="price-list">
+                  <li>Personalised box with 3 or 4 eco products</li>
+                  <li>Plant-based & natural Snacks</li>
+                  <li>Plastic-free & handmade Toys</li>
+                  <li>Natural & certified Health items</li>
+                  <li>Organic & Natural Hygiene items</li>
+                  <li>Free-Shipping</li>
+                  <li>10% Store discount</li>
+                </ul>
+              </div>
+              <div class="card-ft-wrap">
+                <div class="m-price">
+                  <p>Cancel anytime</p>
+                  <span class="amount">€ 19.99<span>/box</span></span>
+                </div>
+                <div class="common-btn in-price">
+                  <a href="#" class="round-btn price-btn">COMEÇAR AGORA</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="price-sec-btm">
+              <p>
+                Todas as nossas subscrições são personalisadas de acordo a raça,
+                idade, dieta e <br />
+                outras caracteristicas que fazem o seu companheiro único e
+                especial.
+              </p>
+              <div class="some-service">
+                <div class="some-item">
+                  <div class="sm-icon">
+                    <img src="assets/img/sm-1.svg" alt="" />
+                  </div>
+                  <h6>Subscrição Fléxivel</h6>
+                </div>
+                <div class="some-item">
+                  <div class="sm-icon">
+                    <img src="assets/img/sm-2.svg" alt="" />
+                  </div>
+                  <h6>Entrega 24h-48h</h6>
+                </div>
+                <div class="some-item">
+                  <div class="sm-icon">
+                    <img src="assets/img/sm-3.svg" alt="" />
+                  </div>
+                  <h6>Ganhe Pontos</h6>
+                </div>
+                <div class="some-item">
+                  <div class="sm-icon">
+                    <img src="assets/img/sm-4.svg" alt="" />
+                  </div>
+                  <h6>Apoio ao Cliente</h6>
+                </div>
+                <div class="some-item">
+                  <div class="sm-icon">
+                    <img src="assets/img/sm-5.svg" alt="" />
+                  </div>
+                  <h6>Veterinária</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Price Area End -->
+
+    <!-- Product Area Start -->
+    <div class="product-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="product-heading">
+              <h5>Produtos em Destaque</h5>
+              <a href="#" class="round-btn price-btn">VER TODOS</a>
+            </div>
+          </div>
+        </div>
+        <div class="row product-active">
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-1.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Naturea Regional Small Breed</h5>
+                <div class="pd-price">
+                  <span>€ 16.30</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-2.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Dingo Chicken & Daily</h5>
+                <div class="pd-price">
+                  <span>€ 36.90</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-1.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Healsty Óleo de Salmão</h5>
+                <div class="pd-price">
+                  <span>€ 9.90</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-3.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <div class="pd-price">
+                  <span>€ 6.95</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-3.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <div class="pd-price">
+                  <span>€ 6.95</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-wrapper">
+              <div class="product-img">
+                <img src="assets/img/p-3.png" alt="" />
+                <a class="round-btn buy" href="#">BUY NOW</a>
+              </div>
+              <div class="product-content">
+                <h5>Laçarote Zee.Dog Mahalo</h5>
+                <div class="pd-price">
+                  <span>€ 6.95</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Area End -->
+
+    <!-- Brand Ara Start -->
+    <div class="brand-area">
+      <div class="container">
+        <div class="row order-change">
+          <div class="col-lg-6">
+            <div class="brand-left-img">
+              <img src="assets/img/b-left-img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="brand-right-wrapper">
+              <h4>Orgulhosos em colaborar com.</h4>
+              <p>
+                A Fawna junta as melhores marcas e uma seleção de produtos
+                organicos, vegetarianos e produtos éticos com baixo impacto
+                ambiental.
+              </p>
+
+              <div class="brand-img">
+                <div class="brand-item">
+                  <img src="assets/img/b-1.png" alt="" />
+                </div>
+                <div class="brand-item">
+                  <img src="assets/img/b-2.png" alt="" />
+                </div>
+                <div class="brand-item">
+                  <img src="assets/img/b-3.png" alt="" />
+                </div>
+                <div class="brand-item">
+                  <img src="assets/img/b-4.png" alt="" />
+                </div>
+                <div class="brand-item">
+                  <img src="assets/img/b-5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brand Ara End -->
+
+    <!-- White Area Start -->
+    <div class="white-area"></div>
+    <!-- White Area End -->
+
+    <!-- Function Area Two Start -->
+    <div class="function-area">
+      <div class="container-fluid">
+        <div class="function-inner-area function-sec-two">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div class="cartoon-wrapper">
+                  <div class="section-title function-sec-two">
+                    <h2>Prefere apalpar terreno antes de avançar?</h2>
+                    <p>Pode também comprar na loja sem subscrição.</p>
+                    <div class="common-btn">
+                      <a href="#" class="round-btn price-btn">COMPRAR AGORA</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 d-flex align-items-end">
+                <div class="carton-img">
+                  <img src="assets/img/carton.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Function Area Two End -->
+
+    <!-- Testimonial Area Start -->
+    <div class="product-area Testimonial-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="section-title service-sec">
+              <h2>O que dizem sobre a Fawna</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row testimonial-active">
+          <div class="col-lg-4">
+            <div class="testimonial-wrapper">
+              <div class="tes-img">
+                <img src="assets/img/t-1.png" alt="" />
+                <div class="trans-divv">
+                  <img class="" src="assets/img/tes-trans.svg" alt="" />
+                </div>
+              </div>
+              <div class="product-content tes">
+                <p>I love how you can get food delivered on a regular basis!</p>
+              </div>
+              <div class="tes-name">
+                <h6>Lucinda Emma</h6>
+                <span>Nyao’s Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-wrapper">
+              <div class="tes-img">
+                <img src="assets/img/t-2.png" alt="" />
+                <div class="trans-divv">
+                  <img class="" src="assets/img/tes-trans.svg" alt="" />
+                </div>
+              </div>
+              <div class="product-content tes">
+                <p>I love the customization for Max!</p>
+              </div>
+              <div class="tes-name">
+                <h6>Brandon Coleman</h6>
+                <span>Nyao’s Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-wrapper">
+              <div class="tes-img">
+                <img src="assets/img/t-3.png" alt="" />
+                <div class="trans-divv">
+                  <img class="" src="assets/img/tes-trans.svg" alt="" />
+                </div>
+              </div>
+              <div class="product-content tes">
+                <p>I never had to worried</p>
+              </div>
+              <div class="tes-name">
+                <h6>Clifford McCormick</h6>
+                <span>Nyao’s Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-wrapper">
+              <div class="tes-img">
+                <img src="assets/img/t-2.png" alt="" />
+                <div class="trans-divv">
+                  <img class="" src="assets/img/tes-trans.svg" alt="" />
+                </div>
+              </div>
+              <div class="product-content tes">
+                <p>I love the customization for Max!</p>
+              </div>
+              <div class="tes-name">
+                <h6>Brandon Coleman</h6>
+                <span>Nyao’s Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-wrapper">
+              <div class="tes-img">
+                <img src="assets/img/t-2.png" alt="" />
+                <div class="trans-divv">
+                  <img class="" src="assets/img/tes-trans.svg" alt="" />
+                </div>
+              </div>
+              <div class="product-content tes">
+                <p>I love the customization for Max!</p>
+              </div>
+              <div class="tes-name">
+                <h6>Brandon Coleman</h6>
+                <span>Nyao’s Parent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Area End -->
+
+    <!-- Top Footer Area Start -->
+    <div class="top-footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="top-footer-wrapper">
+              <div class="section-title top-footer-sec">
+                <h2>Melhor para o seu Patudo. Melhor para o Planeta.</h2>
+                <p>Melhor para o seu Patudo. Melhor para o Planeta.</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn top-ft-sec">FAÇA A MUDANÇA</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Footer Area End -->
+
+    <!-- Footer Area Start -->
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row agian">
+            <div class="col-lg-3 col-md-3">
+              <div class="ft-logo">
+                <img src="assets/img/ft-logo.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-7">
+              <div class="ft-links-main-wrap">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4">
+                    <div class="footer-widget">
+                      <h5>Explorar</h5>
+                      <ul class="ft-menu">
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                    <div class="footer-widget">
+                      <h5>Serviços</h5>
+                      <ul class="ft-menu">
+                        <li><a href="#">Eco Box</a></li>
+                        <li><a href="#">Eco Pack</a></li>
+                        <li><a href="#">Eco Store</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                    <div class="footer-widget">
+                      <h5>Ajuda</h5>
+                      <ul class="ft-menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="footer-widget">
+                <h5>Social</h5>
+                <ul class="social">
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row res-purpose">
+              <div class="col-xl-12">
+                  <div class="res-p-ft-wrap">
+                        <div class="ft-logo">
+                            <img src="assets/img/ft-logo.svg" alt="" />
+                        </div>
+                        <ul class="social res">
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="ft-new-menu">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="copyright-wrap">
+                <p class="copy">
+                  Copyright © 2019 FAWNA CO. All Rights Reserved.
+                </p>
+                <p class="made">Made in Portugal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Plugins js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

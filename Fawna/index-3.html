@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!--====== Title ======-->
+  <title>Document</title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!--====== Fontawesome css ======-->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+
+  <!--====== Plugins css ======-->
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+
+
+  <!--====== Default css ======-->
+  <link rel="stylesheet" href="assets/css/default.css" />
+
+  <!--====== Style css ======-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--====== Responsive css ======-->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <!-- sidebar area start -->
+  <div class="sidebar">
+    <div class="mobile-menu-header">
+      <div class="logo">
+        <a href="#"><img src="assets/img/mobile-logo.svg" alt=""/></a>
+      </div>
+      <div class="cart-div">
+        <a href="#"
+          ><svg
+            width="20"
+            height="20"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="cart-icon"
+              d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+              fill="#1C3261"
+            ></path>
+            <path
+              class="cart-icon"
+              d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+              fill="#1C3261"
+            ></path>
+          </svg>
+        </a>
+        <div class="close-icon"><i class="far fa-times"></i></div>
+      </div>
+    </div>
+    <nav class="sideBar-menu">
+      <ul>
+        <li><a href="#">CÃES</a></li>
+        <li><a href="#">GATOS</a></li>
+        <li><a href="#">ECOBOX</a></li>
+        <li><a href="#">ECOPACK</a></li>
+      </ul>
+    </nav>
+    <ul class="condition">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+    <form class="mobile-view-form">
+      <div class="mail-input">
+        <input type="email" placeholder="">
+        <button type="submit">Entrar</button>
+      </div>
+      <a href="#" class="round-btn mobile-view">REGISTAR</a>
+    </form>
+  </div>
+  <!-- sidebar area end -->
+
+  <div class="off-canvas-overlay"></div>
+
+  <!-- Header Area Start -->
+  <div class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6 d-flex align-items-center">
+          <div class="logo">
+            <a href="#"><img src="assets/img/logo.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-lg-9 col-6">
+          <nav class="main-menu d-none d-lg-block">
+            <ul>
+              <li><a href="#">CÃES</a></li>
+              <li><a href="#">GATOS</a></li>
+              <li><a href="#">ECOBUNDLE</a></li>
+              <li><a href="#">ECOBOX</a></li>
+              <li class="brr"><a href="#">ENTRAR</a></li>
+              <li><a href="#" class="round-btn">REGISTAR</a></li>
+              <li>
+                <a href="#"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="cart-icon"
+                      d="M20.7659 5.88465L5.4696 4.47697C5.38569 4.46723 5.30672 4.46723 5.22774 4.4721L4.61569 1.54957C4.60089 1.49112 4.58608 1.43267 4.5614 1.38396C4.46762 1.15016 4.27018 0.960192 4.00858 0.882258L1.09147 0.0347244C0.642302 -0.0967894 0.168457 0.156496 0.0351878 0.604617C-0.0980812 1.04787 0.158585 1.51547 0.612687 1.64699L3.04608 2.35326L5.97306 16.2742C6.02736 16.6834 6.38274 17 6.8171 17L19.4036 16.9951C19.8725 16.9951 20.2526 16.6201 20.2526 16.1573C20.2526 15.6946 19.8725 15.3195 19.4036 15.3195L7.51306 15.3244L7.10832 13.4004H19.6257C20.2822 13.4004 20.8498 12.9718 20.9683 12.3824L21.9802 7.35079C22.1134 6.6299 21.5606 5.95772 20.7659 5.88465Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z"
+                      fill="#1C3261" />
+                    <path class="cart-icon"
+                      d="M17 22C18.1046 22 19 21.1046 19 20C19 18.8954 18.1046 18 17 18C15.8954 18 15 18.8954 15 20C15 21.1046 15.8954 22 17 22Z"
+                      fill="#1C3261" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile-bar"><i class="far fa-bars"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Area End -->
+
+  <!-- Banner Area Start -->
+  <div class="banner-area pge-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6">
+          <div class="banner-content-wrap pge-3 d-flex align-items-center">
+            <div class="banner-content-inner pge-2 pge-3">
+              <span>CRIE O SEU PACK</span>
+              <h3>
+                Poupe com os Packs de Alimentação Éticos & Saúdaveis
+              </h3>
+              <p>Com os nossos Planos customizados para o seu cão ou gato pode poupar mais de 20%. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6">
+          <div class="banner-img pge-3 d-flex align-items-end justify-content-center">
+            <img src="assets/img/hero-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner Area End -->
+
+  <!-- To Do Area Start -->
+  <div class="todo-area">
+    <div class="container big">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title todo-sec">
+            <h2>Tudo o que o seu companheiro necessita, num só pack.
+            </h2>
+            <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique <br> elements
+              that
+              make your pet so special. As possibilidades são quase ilimitadas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="todo-main-wrapper todo-active">
+            <div class="todo-single-item">
+              <div class="price-c-wrapper pge-3">
+                <div class="todo-hd">
+                  <div class="todo-icon">
+                    <img src="assets/img/todo-1.png" alt="">
+                  </div>
+                  <h4>Alimentação</h4>
+                  <p>Delicious & Nutritious</p>
+                </div>
+                <div class="price-content pge-3">
+                  <ul class="price-list pge-3">
+                    <li>Ração Seca</li>
+                    <li>Comida Húmida</li>
+                    <li>Molhos</li>
+                  </ul>
+                </div>
+                <div class="card-ft-wrap pge-3">
+                  <div class="common-btn in-price pge-3">
+                    <a href="#" class="round-btn price-btn pge-3" tabindex="0">CRIAR PACK</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="todo-single-item">
+              <div class="price-c-wrapper pge-3">
+                <div class="todo-hd">
+                  <div class="todo-icon">
+                    <img src="assets/img/todo-2.png" alt="">
+                  </div>
+                  <h4>Saúde</h4>
+                  <p>Vital & Happy</p>
+                </div>
+                <div class="price-content pge-3">
+                  <ul class="price-list pge-3">
+                    <li>Pulgas</li>
+                    <li>Suplementos</li>
+                    <li>Dentes</li>
+                  </ul>
+                </div>
+                <div class="card-ft-wrap pge-3">
+                  <div class="common-btn in-price pge-3">
+                    <a href="#" class="round-btn price-btn pge-3" tabindex="0">CRIAR PACK</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="todo-single-item">
+              <div class="price-c-wrapper pge-3">
+                <div class="todo-hd">
+                  <div class="todo-icon">
+                    <img src="assets/img/todo-3.png" alt="">
+                  </div>
+                  <h4>Higiene</h4>
+                  <p>So fresh, so clean</p>
+                </div>
+                <div class="price-content pge-3">
+                  <ul class="price-list pge-3">
+                    <li>Litter</li>
+                    <li>Shampoo</li>
+                    <li>Sacos Fezes</li>
+                  </ul>
+                </div>
+                <div class="card-ft-wrap pge-3">
+                  <div class="common-btn in-price pge-3">
+                    <a href="#" class="round-btn price-btn pge-3" tabindex="0">CRIAR PACK</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="todo-single-item">
+              <div class="price-c-wrapper pge-3">
+                <div class="todo-hd">
+                  <div class="todo-icon">
+                    <img src="assets/img/todo-4.png" alt="">
+                  </div>
+                  <h4>Guloseimas</h4>
+                  <p>Snacks delicosos</p>
+                </div>
+                <div class="price-content pge-3">
+                  <ul class="price-list pge-3">
+                    <li>Biscoitos</li>
+                    <li>Mastigar</li>
+                    <li>Lamber</li>
+                  </ul>
+                </div>
+                <div class="card-ft-wrap pge-3">
+                  <div class="common-btn in-price pge-3">
+                    <a href="#" class="round-btn price-btn pge-3" tabindex="0">CRIAR PACK</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="todo-single-item">
+              <div class="price-c-wrapper pge-3">
+                <div class="todo-hd">
+                  <div class="todo-icon">
+                    <img src="assets/img/todo-5.png" alt="">
+                  </div>
+                  <h4>Brinquedos</h4>
+                  <p>Plastic-Free</p>
+                </div>
+                <div class="price-content pge-3">
+                  <ul class="price-list pge-3">
+                    <li>Apanhar</li>
+                    <li>Bonecos</li>
+                    <li>Arranhador</li>
+                  </ul>
+                </div>
+                <div class="card-ft-wrap pge-3">
+                  <div class="common-btn in-price pge-3">
+                    <a href="#" class="round-btn price-btn pge-3" tabindex="0">CRIAR PACK</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- To Do Area End -->
+
+  <!-- To do Bottom Area Start -->
+  <div class="todo-btm-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="some-service pge-4">
+            <div class="some-item pge-4">
+              <div class="sm-icon pge-4">
+                <img src="assets/img/td-1.svg" alt="">
+              </div>
+              <h6>Subscrição Fléxivel</h6>
+            </div>
+            <div class="some-item pge-4 extra">
+              <div class="sm-icon pge-4">
+                <img src="assets/img/td-2.svg" alt="">
+              </div>
+              <h6>Entregas 24-48he</h6>
+            </div>
+            <div class="some-item pge-4 extra">
+              <div class="sm-icon pge-4">
+                <img src="assets/img/td-3.svg" alt="">
+              </div>
+              <h6>Ganhe Pontos</h6>
+            </div>
+            <div class="some-item pge-4">
+              <div class="sm-icon pge-4">
+                <img src="assets/img/td-4.svg" alt="">
+              </div>
+              <h6>Apoio ao Cliente</h6>
+            </div>
+            <div class="some-item pge-4">
+              <div class="sm-icon pge-4">
+                <img src="assets/img/td-5.svg" alt="">
+              </div>
+              <h6>Vet counselling</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- To do Bottom Area End -->
+
+  <!-- Alternative Area Start -->
+  <div class="alternative-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2">
+          <div class="section-title alternative-sec">
+            <h2>Crie o seu pack à sua medida e do seu companheiro.
+            </h2>
+            <p>Você tem o controlo e decide o que incluir em cada pack e a sua frequência. Os nossos packs são fléxiveis
+              e feitos à medida da sua família.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-alternative-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="alternative-img m-right">
+              <img src="assets/img/alter-1.png" alt="">
+              <div class="alter-tran">
+                <img src="assets/img/alter-trans.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="alternative-content-wrap">
+              <div class="alternative-content-inner p-left">
+                <span>DELICIOUS & NUTRITIOUS</span>
+                <div class="icon-heading">
+                  <div class="todo-icon">
+                    <img src="assets/img/a-1.svg" alt="">
+                  </div>
+                  <h4>Alimentação</h4>
+                </div>
+                <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique elements that
+                  make your pet so special. The possibilities are almost unlimited</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn price-btn alternative-sec">GET STARTED</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-alternative-area from-right">
+      <div class="container">
+        <div class="row order-change-4">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="alternative-content-wrap from-right">
+              <div class="alternative-content-inner p-left">
+                <span>HEALTHY & TASTY</span>
+                <div class="icon-heading">
+                  <div class="todo-icon">
+                    <img src="assets/img/a-2.svg" alt="">
+                  </div>
+                  <h4>Saúde</h4>
+                </div>
+                <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique elements that
+                  make your pet so special. The possibilities are almost unlimited</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn price-btn alternative-sec">GET STARTED</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="alternative-img m-right">
+              <img src="assets/img/alter-2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-alternative-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="alternative-img m-right">
+              <img src="assets/img/alter-3.png" alt="">
+              <div class="alter-tran">
+                <img src="assets/img/alter-trans.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="alternative-content-wrap">
+              <div class="alternative-content-inner p-left">
+                <span>DELICIOUS & NUTRITIOUS</span>
+                <div class="icon-heading">
+                  <div class="todo-icon">
+                    <img src="assets/img/a-3.svg" alt="">
+                  </div>
+                  <h4>Higiene</h4>
+                </div>
+                <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique elements that
+                  make your pet so special. The possibilities are almost unlimited</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn price-btn alternative-sec">GET STARTED</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-alternative-area from-right">
+      <div class="container">
+        <div class="row order-change-4">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="alternative-content-wrap from-right">
+              <div class="alternative-content-inner p-left">
+                <span>HEALTHY & TASTY</span>
+                <div class="icon-heading">
+                  <div class="todo-icon">
+                    <img src="assets/img/a-4.svg" alt="">
+                  </div>
+                  <h4>Biscoitos</h4>
+                </div>
+                <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique elements that
+                  make your pet so special. The possibilities are almost unlimited</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn price-btn alternative-sec">GET STARTED</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="alternative-img m-right">
+              <img src="assets/img/alter-4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-alternative-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="alternative-img m-right">
+              <img src="assets/img/alter-5.png" alt="">
+              <div class="alter-tran">
+                <img src="assets/img/alter-trans.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="alternative-content-wrap">
+              <div class="alternative-content-inner p-left">
+                <span>DELICIOUS & NUTRITIOUS</span>
+                <div class="icon-heading">
+                  <div class="todo-icon">
+                    <img src="assets/img/a-5.svg" alt="">
+                  </div>
+                  <h4>Brinquedos</h4>
+                </div>
+                <p>Our plans are tailored to the your pet’s breed, size, diet, activity among other unique elements that
+                  make your pet so special. The possibilities are almost unlimited</p>
+                <div class="common-btn">
+                  <a href="#" class="round-btn price-btn alternative-sec">GET STARTED</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Alternative Area End -->
+
+  <!-- Like cartoon slider Area Start -->
+  <div class="carton-slider like">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title todo-sec">
+            <h2>Não há dois packs iguais. Confira os exemplos:
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row like-carton-active">
+        <div class="col-xl-12">
+          <div class="like-main-wrapper">
+            <div class="row">
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Perfil Único</h4>
+                  <div class="like-part-body charlie com-top-pd">
+                    <div class="dog-img">
+                      <img src="assets/img/dog.png" alt="">
+                    </div>
+                    <h5>Charlie</h5>
+                    <div class="sign-article">
+                      <span class="c-1">MALE</span>
+                      <span class="c-2">ADULT</span>
+                      <span class="c-3">ACTIVE</span>
+                    </div>
+                    <span class="extra-sign c-4">HYPOALLERGIC DIET</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Pack Único</h4>
+                  <div class="like-part-body">
+                    <ul class="like-list com-top-pd">
+                      <li><img src="assets/img/l-1.svg" alt="">Halo Dog Chicken 12Kg</li>
+                      <li><img src="assets/img/l-2.svg" alt="">Mix Pack Snacks Veggie</li>
+                      <li><img src="assets/img/l-3.svg" alt="">Mix Pack Big Toys</li>
+                      <li><img src="assets/img/l-4.svg" alt="">Vitamin Oils Omega 3</li>
+                      <li><img src="assets/img/l-5.svg" alt="">Fur threatment soap</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Poupanças Únicas</h4>
+                  <div class="like-part-body">
+                    <div class="like-lst-part com-top-pd">
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-1.svg" alt="">Frequency</span>
+                        <p>Every 4 Weeks</p>
+                      </div>
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-2.svg" alt="">Annual Savings</span>
+                        <p>€ 119.99</p>
+                      </div>
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-3.svg" alt="">Pricing</span>
+                        <p class="extra-size">€ 24.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-12">
+          <div class="like-main-wrapper">
+            <div class="row">
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Perfil Único</h4>
+                  <div class="like-part-body charlie com-top-pd">
+                    <div class="dog-img">
+                      <img src="assets/img/dog.png" alt="">
+                    </div>
+                    <h5>Charlie</h5>
+                    <div class="sign-article">
+                      <span class="c-1">MALE</span>
+                      <span class="c-2">ADULT</span>
+                      <span class="c-3">ACTIVE</span>
+                    </div>
+                    <span class="extra-sign c-4">HYPOALLERGIC DIET</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Pack Único</h4>
+                  <div class="like-part-body">
+                    <ul class="like-list com-top-pd">
+                      <li><img src="assets/img/l-1.svg" alt="">Halo Dog Chicken 12Kg</li>
+                      <li><img src="assets/img/l-2.svg" alt="">Mix Pack Snacks Veggie</li>
+                      <li><img src="assets/img/l-3.svg" alt="">Mix Pack Big Toys</li>
+                      <li><img src="assets/img/l-4.svg" alt="">Vitamin Oils Omega 3</li>
+                      <li><img src="assets/img/l-5.svg" alt="">Fur threatment soap</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-30">
+                <div class="like-part">
+                  <h4>Poupanças Únicas</h4>
+                  <div class="like-part-body">
+                    <div class="like-lst-part com-top-pd">
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-1.svg" alt="">Frequency</span>
+                        <p>Every 4 Weeks</p>
+                      </div>
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-2.svg" alt="">Annual Savings</span>
+                        <p>€ 119.99</p>
+                      </div>
+                      <div class="like-block">
+                        <span><img src="assets/img/ls-3.svg" alt="">Pricing</span>
+                        <p class="extra-size">€ 24.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="common-btn carton-slider-sec">
+            <a href="#" class="round-btn s-sec-two">COMECE A POUPAR</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Like cartoon slider Area End -->
+
+  <!-- Section Accordion Area Start -->
+  <div class="section-accordion-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="sec-accor-main-wrap">
+            <div class="single-option pge-3">
+              <button class="btn btn-link pge-3 collapsed" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <span>1.</span> Why Should i switch to Fawna?
+              </button>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                <div class="card-body pge-3">
+                  <div class="accor-content pge-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, officiis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="single-option pge-3">
+              <button class="btn btn-link pge-3" data-toggle="collapse" data-target="#collapse22" aria-expanded="true"
+                aria-controls="collapse22">
+                <span>2.</span> How does Fawna work?
+              </button>
+              <div id="collapse22" class="collapse show" aria-labelledby="headingOne">
+                <div class="card-body pge-3">
+                  <div class="accor-content pge-3">
+                    <p>We’re a subscription service and deliver customized fresh dog food right to your door. Here are
+                      the de-tails:</p>
+                    <ul class="ac-list">
+                      <li>1. Tell us about you and your pup so we can personalize the best plan</li>
+                      <li>2. We’ll deliver your first box of paradise.</li>
+                      <li>3. Store the containers in your fridge/freezer</li>
+                      <li>4. Serve up your food.</li>
+                      <li>5. Watch your pup go bananas</li>
+                      <li>6. Take pics and vids</li>
+                      <li>7. We’ll auto-magically send you more boxes</li>
+                      <li>8. Skip, pause, or cancel anytime</li>
+                      <li>9. We ship out our boxes on Mondays, so you’ll get your box by Thursday (earlier depending on
+                        your zip code). </li>
+                    </ul>
+                    <p>We charge for shipments the Friday before your delivery, so if you need to skip a week, or pause
+                      your subscription, we’ve got you covered. Just email us at fawna@fawna.com! We might be able to
+                      hook you up with an emergency delivery in certain situations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="single-option pge-3">
+              <button class="btn btn-link pge-3 collapsed" data-toggle="collapse" data-target="#collapse33"
+                aria-expanded="true" aria-controls="collapse33">
+                <span>3.</span> How much does Fawna Cost?
+              </button>
+              <div id="collapse33" class="collapse" aria-labelledby="headingOne">
+                <div class="card-body pge-3">
+                  <div class="accor-content pge-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, officiis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="single-option pge-3">
+              <button class="btn btn-link pge-3 collapsed" data-toggle="collapse" data-target="#collapse44"
+                aria-expanded="true" aria-controls="collapse44">
+                <span>4.</span> How’s Fawna made?
+              </button>
+              <div id="collapse44" class="collapse" aria-labelledby="headingOne">
+                <div class="card-body pge-3">
+                  <div class="accor-content pge-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, officiis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="single-option pge-3">
+              <button class="btn btn-link pge-3 collapsed" data-toggle="collapse" data-target="#collapse55"
+                aria-expanded="true" aria-controls="collapse55">
+                <span>5.</span> How much should i feed my dog/cat?
+              </button>
+              <div id="collapse55" class="collapse" aria-labelledby="headingOne">
+                <div class="card-body pge-3">
+                  <div class="accor-content pge-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, officiis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section Accordion Area End -->
+
+
+  <!-- Top Footer Area Start -->
+  <div class="top-footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="top-footer-wrapper">
+            <div class="section-title top-footer-sec">
+              <h2>Melhor para o seu Patudo. Melhor para o Planeta.</h2>
+              <p>Melhor para o seu Patudo. Melhor para o Planeta.</p>
+              <div class="common-btn">
+                <a href="#" class="round-btn top-ft-sec">FAÇA A MUDANÇA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Top Footer Area End -->
+
+  <!-- Footer Area Start -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row agian">
+          <div class="col-lg-3 col-md-3">
+            <div class="ft-logo">
+              <img src="assets/img/ft-logo.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7">
+            <div class="ft-links-main-wrap">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Explorar</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">Missão</a></li>
+                      <li><a href="#">Contacts</a></li>
+                      <li><a href="#">Partnerships</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Serviços</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">Eco Box</a></li>
+                      <li><a href="#">Eco Pack</a></li>
+                      <li><a href="#">Eco Store</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footer-widget">
+                    <h5>Ajuda</h5>
+                    <ul class="ft-menu">
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Privacy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="footer-widget">
+              <h5>Social</h5>
+              <ul class="social">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row res-purpose">
+          <div class="col-xl-12">
+            <div class="res-p-ft-wrap">
+              <div class="ft-logo">
+                <img src="assets/img/ft-logo.svg" alt="" />
+              </div>
+              <ul class="social res">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+              <ul class="ft-new-menu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="copyright-wrap">
+              <p class="copy">
+                Copyright © 2019 FAWNA CO. All Rights Reserved.
+              </p>
+              <p class="made">Made in Portugal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Area End -->
+
+  <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+  <!--====== jquery js ======-->
+  <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!--====== Ajax Contact js ======-->
+  <script src="assets/js/ajax-contact.js"></script>
+
+  <!--====== Plugins js ======-->
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+
+  <!--====== Main js ======-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
